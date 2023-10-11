@@ -1,0 +1,37 @@
+#menu{
+    /* Parametros común de menu; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#menu li a{
+    /* Parametros de lista del menu; */
+    display: block;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+}
+
+/* #menu li a.active{
+    color: var(--color-primary);
+    text-decoration: none;
+} */
+
+#menu li a.active :hover{
+    color: var(--color-gray);
+    text-decoration: underline;
+}
+
+@media only screen and (min-width:768px)  {
+    #menu{
+        /* Centrar texto en menu cuando se hace menor tamaño */
+        margin-left: 10px;
+        text-align: left;
+    }
+
+}
+
