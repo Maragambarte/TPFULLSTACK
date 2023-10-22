@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,.90),rgba(5, 7, 12,.75)), url(../img/atras/fondo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
