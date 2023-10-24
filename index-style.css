@@ -1,0 +1,261 @@
+/* @import "colors.css";
+@import "common.css";
+@import "grid.css";
+@import "menu.css";
+@import "content.css";
+@import "aside.css";
+@import "footer.css";
+@import "back.css"; */
+
+
+/* Estilo aside */
+.aside{
+    /* Parametros común de aside; */
+    /* background-color: black; */
+    text-align: center;
+    padding: 50px;
+    margin: 40px;
+    background: linear-gradient(rgba(5,7,12,.6),rgba(5, 7, 12, 0.6));
+}
+
+.aside a{
+    /* Margen entre logos; */
+   margin-bottom: 30px;
+}
+
+/* Estilo bakcground */
+body{
+    background-image: linear-gradient(rgba(255,255,255,.90),rgba(5, 7, 12,.75)), url(imagenes/index/img/atras/fondo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilo colors */
+:root{
+    --color-primary: #dad28c;
+    --color-primary-dark: #a99985;
+    --color-gray: #70798c;
+}
+
+/* Estilo common */
+*{
+/* Evitas sumar padding y margin; */
+            box-sizing: border-box;
+}
+        
+html, body{
+/* Reseteo de padding y margin; */
+            padding: 0;
+            margin: 0;
+            font-family: "Fira Sans" , sans-serif;
+}
+        
+/* Estilos de enlaces; (nota:revisar) */
+a{
+            color: black;
+            text-decoration: none;
+}
+        
+    a :hover{
+/* Nota:revisar ¡No funciona!*/
+            color: var(--color-gray);
+            text-decoration: underline;
+}
+
+.title{
+    /* Parametros común de titulo; */
+    font-weight: lighter;
+    text-align: "#";
+    margin: 10px, 30px, 0;
+    /* color: var(--color-gray); */
+}
+
+.search-input{
+    /* Parametros común de boton de busqueda; */
+    float: right;
+    padding: 10px;
+    width: 30%;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid var(--color-gray);
+    outline: 0;
+    background-image: linear-gradient(rgba(5, 7, 12,.16),rgba(5, 7, 12,.16));
+}
+
+.paragraph{
+    /* Parametros común de parrafo; */
+    text-align: justify;
+    /* color: var(--color-gray); */
+}
+
+/* Estilo footer */
+.footer{
+    /* Parametros común de footer; */
+    /* background-color: black; */
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    /* background: linear-gradient(rgba(255,255,255,.2),rgba(2555,255, 255,.2)); */
+}
+
+/* Estilo grid responsive */
+.container{
+    /* Establece medidas y margen del contenido (centrado); */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .row ::after{
+    /* Limpiar los flotantes (no permite que ningun elemento quede flotando); */
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    [class*= "col-"]{
+        /* Selecciona todas las clases .col y coloca uno al lado del otro;tamaño de todas las filas */
+        float: left;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    /* Necesario incluir en @media para que no sibre escriba el width de la class*; */
+        /* Nota: ajuste de tamaño pantalla
+        @media only screen and (min-width: 600px){
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    } */
+    
+    /* Para mobiles */
+    @media only screen and (min-width: 600px){
+        .col-xs-1 {width: 8.33%;}
+        .col-xs-2 {width: 16.66%;}
+        .col-xs-3 {width: 25%;}
+        .col-xs-4 {width: 33.33%;}
+        .col-xs-5 {width: 41.66%;}
+        .col-xs-6 {width: 50%;}
+        .col-xs-7 {width: 58.33%;}
+        .col-xs-8 {width: 66.66%;}
+        .col-xs-9 {width: 75%;}
+        .col-xs-10 {width: 83.33%;}
+        .col-xs-11 {width: 91.66%;}
+        .col-xs-12 {width: 100%;}
+    }
+    
+    /* Para tablets */
+    @media only screen and (min-width: 600px){
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}   
+    }
+    
+    /* Para escritorio */
+    @media only screen and (min-width: 768px){
+        .col-m-1 {width: 8.33%;}
+        .col-m-2 {width: 16.66%;}
+        .col-m-3 {width: 25%;}
+        .col-m-4 {width: 33.33%;}
+        .col-m-5 {width: 41.66%;}
+        .col-m-6 {width: 50%;}
+        .col-m-7 {width: 58.33%;}
+        .col-m-8 {width: 66.66%;}
+        .col-m-9 {width: 75%;}
+        .col-m-10 {width: 83.33%;}
+        .col-m-11 {width: 91.66%;}
+        .col-m-12 {width: 100%;}
+        
+    }
+    
+    @media only screen and (min-width: 992px){
+        .col-l-1 {width: 8.33%;}
+        .col-l-2 {width: 16.66%;}
+        .col-l-3 {width: 25%;}
+        .col-l-4 {width: 33.33%;}
+        .col-l-5 {width: 41.66%;}
+        .col-l-6 {width: 50%;}
+        .col-l-7 {width: 58.33%;}
+        .col-l-8 {width: 66.66%;}
+        .col-l-9 {width: 75%;}
+        .col-l-10 {width: 83.33%;}
+        .col-l-11 {width: 91.66%;}
+        .col-l-12 {width: 100%;}
+        
+    }
+    
+    @media only screen and (min-width: 992px){
+        .col-xl-1 {width: 8.33%;}
+        .col-xl-2 {width: 16.66%;}
+        .col-xl-3 {width: 25%;}
+        .col-xl-4 {width: 33.33%;}
+        .col-xl-5 {width: 41.66%;}
+        .col-xl-6 {width: 50%;}
+        .col-xl-7 {width: 58.33%;}
+        .col-xl-8 {width: 66.66%;}
+        .col-xl-9 {width: 75%;}
+        .col-xl-10 {width: 83.33%;}
+        .col-xl-11 {width: 91.66%;}
+        .col-xl-12 {width: 100%;}
+}
+
+/* Estilo grid responsive */
+    #menu{
+        /* Parametros común de menu; */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    #menu li a{
+        /* Parametros de lista del menu; */
+        display: block;
+        padding: 10px;
+        margin-left: 0px;
+        margin-bottom: 7px;
+    }
+    
+    /* #menu li a.active{
+        color: var(--color-primary);
+        text-decoration: none;
+    } */
+    
+    #menu li a:hover, #menu li a.active{
+        /* color: var(--color-gray); */
+        text-decoration: underline;
+    }
+    
+    @media only screen and (min-width:768px)  {
+        #menu{
+            /* Centrar texto en menu cuando se hace menor tamaño */
+            margin-left: 10px;
+            text-align: left;
+        }
+    
+    }
+    
+    /* #video{
+        
+    } */
