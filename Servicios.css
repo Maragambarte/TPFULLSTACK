@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Reparación de Audífonos</title>
+    <style>
+        body {
+            background-image: url('imagenes/fondo3.jpg
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        input[type="submit
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #0078d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #0078d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="
+
+        body {
+            background-image: url('imagenes/fondo3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #4D5656;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p1 {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BFC9CA;
+            font-weight: bold;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #0078d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005cbf;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .item img {
+            max-width: 90%;
+            height: auto;
+            display: block;
+            width: 90%;
+        }
+
+        .item p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        footer {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .icon.footer {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .icon.footer img {
+            vertical-align: middle;
+        }
+    </style>
+
+</
+</head>
+<body>
+    <header>
+        <h1>Servicios para Audífonos</h1>
+    </header>
+
+    
+
+   
+<section id="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service">
+            <h3>Reparación de Piezas</h3>
+            <p>Ofrecemos servicios de reparación de piezas para auriculares de todas las marcas y modelos. Nuestros técnicos altamente capacitados aseguran que tu dispositivo se repare de manera eficiente y rápida.</p>
+        </div>
+        
+       
+<div class="service">
+            <h3>Calibración</h3>
+            <p>Nuestro equipo de expertos puede calibrar tus auriculates para asegurar que obtengas el mejor rendimiento de audio. Ajustaremos los parámetros según tus preferencias para una experiencia auditiva personalizada.</p>
+        </div>
+        <div class="service">
+            
+           
+<h3>Limpieza Interna de Componentes</h3>
+            <p>Realizamos una limpieza exhaustiva de los componentes internos de tus auriculares para garantizar un funcionamiento óptimo y prolongar su vida útil. Nuestro servicio de limpieza ayuda a mantener la calidad del sonido a lo largo del tiempo.</p>
+        
+        </
+</div>
+    
+</body>
+</html>
